@@ -53,3 +53,6 @@ Behavioral guidelines to reduce common LLM coding mistakes, merged with personal
 ## Code Style
 - Readability over brevity, even if more verbose.
 - No `var`, except where the language requires it (e.g., anonymous types in LINQ). Prefer explicit types everywhere else.
+
+## MCP Tools
+- Always use the Context7 MCP when library/API documentation, code generation, setup, or configuration steps are needed — without me having to explicitly ask. Prefer it over relying on training data for any external library or framework.
